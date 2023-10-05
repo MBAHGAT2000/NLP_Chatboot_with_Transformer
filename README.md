@@ -25,30 +25,21 @@ Pretrained Models: You can start with pretrained weights or train the model from
 
 User-Friendly Interface: The chatbot provides a user-friendly interface for interacting with the model.
 
-
 usage
 To use the chatbot, follow these steps:
-
 Dataset: Prepare your dataset or use the provided sample data.
-
 Training: Train the chatbot model.
-
 Inference: Use the trained model to generate responses.
 
 Dataset
 To train the chatbot, you need a conversation dataset. The dataset should be in a specific format, where each line contains a dialogue turn in the format "user: message" or "bot: message."
-
 You can find sample conversation data in the data/ directory to get started.
 
 Training
 You can train the chatbot model using the following command:
 
-
 Model Architecture
 The chatbot uses a custom implementation of the Transformer Encoder-Decoder architecture. For detailed information about the model architecture and design choices, see Model Architecture.
-
-Contributing
-Contributions to this project are welcome! To contribute, please follow the guidelines outlined in CONTRIBUTING.md.
 
 License
 This project is licensed under the MIT License.
